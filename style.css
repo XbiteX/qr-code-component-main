@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Outfit'; 
+    src: url('./fonts/Outfit-VariableFont_wght') format('truetype');
+}
+
+body {
+    background-color: #d9e1ee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif; /* Apply the font to the body */
+    font-weight: 900;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #ffffff;
+    width: 200px;
+    min-height: 200px;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.container img{
+    border-radius: 6px;
+    max-width: 100%;
+    height: auto;
+}
